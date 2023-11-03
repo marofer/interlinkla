@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Interlink Latinoamérica</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Oxanium&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="100" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#appli">Aplicaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#casoexito">Casos de éxito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+         <!-- <img class="hero-imagen-desarrollador" src="imagenes/icono.png" alt="Logo"> -->
+         <h1>INTERLINK LATINOAMERICA</h1>
+        <h2>Soluciones para problemas en telecomunicaciones</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/go kit.png" alt="Go kit">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="nosotros" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">¿Quienes somos?</h2>
+        <p class="seccion-texto">
+          INTERLINK L. es una empresa de desarrollos tecnológicos creada en 2012 para brindar soluciones complejas a problemáticas de 
+          comunicaciones e interoperabilidad tanto para empresas privadas como gubernamentales.          
+          En conjunto con la experiencia de nuestro equipo de desarrollo y la representación de empresas de 
+          renombre internacional, solucionamos problemas de comunicaciones e interoperabilidad.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="productos" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Merc -->
+          <div class="columna col-12 col-md-4">
+            <img class="hero-inferior-imagen img-fluid" width="400px" src="imagenes/Merc.jpeg" alt="Merc">
+            <p class="experiencia-titulo">Merc</p>
+            <p>El MERC Es un sistema diseñado para uso en operaciones y misiones donde la infraestructura 
+              no existe o ha sido dañada/destruida, o es necesario moverse frecuentemente y rápidamente en apoyo de la misión:              
+              <li>Plataforma móvil de comunicaciones interoperables</li>
+              <li>Centro de mando y operaciones</li>                           
+              <li>Peso ligero, robusto y sostenible </li>
+              <li>Desplegable a través de todos los métodos estándar de transporte (camión, avión, helicóptero,transporte de contenedores, ferrocarril)</li>
+              <li>Menos de 1585 kg (3.500 libras)</li>
+              <li>Operacional en menos de 30 minutos</li>
+              <li> Soporta todos los modos de comunicación y tecnologías adicionales</li>
+              <li>Resistente a las inclemencias del tiempo. Protección climática</li>
+              <li>Con calefacción y aire acondicionado en la carpa de operaciones</li>
+              <li>7-10 días de funcionamiento sin recarga de combustible (clean diesel)</li>                  
+            </p>
+          </div>
+          <!-- go kit -->
+          <div class="columna col-12 col-md-4">
+            <img class="hero-inferior-imagen img-fluid" width="300px" src="imagenes/gokit2.jpeg" alt="go kit">
+            <p class="experiencia-titulo">Go kit</p>
+            <p>Go Kit es el kit de comunicaciones de campo más versátil disponible. Cuidadosamente diseñado con los aportes de los clientes de las fuerzas del orden y la
+              gestión de emergencias, el Go kit Compacto permite al personal de campo interoperar, comunicarse, compartir videos e información, y comunicarse con el mando y el control, en el entorno más hostil de comunicaciones .
+              <br>
+              El Go kit Compacto está equipado con la mejor computadora portátil de su clase con un altavoz/micrófono externo. El kit incluye 4 puertos Radio Gateway
+              interoperables (los radios no están incluidos) y cables, un Video Gateway y un convertidor HDMI USB.
+              <br>             
+              El Go-Kit Compacto alberga un enrutador para redes seguras y un
+              Cradle-Point que admite un SIM/LTE de un proveedor predeterminado.
+              También hay tres puertos LAN Ethernet libres.</p>
+            <div class="badges-contenedor">
+            </div>
+          </div>
+          <!-- r-nic -->
+          <div class="columna col-12 col-md-4">
+            <img class="hero-inferior-imagen img-fluid" width="400px" src="imagenes/redes ip.jpeg" alt="go kit">
+            <p class="experiencia-titulo">Redes Móviles Ip</p>
+            <p>InterLink K Mesh es una red ip de alto rendimiento especialmente diseñada para aplicaciones militares desplegadas en ambientes rigurosos. 
+              Debido a sus capacidades particulares puede adaptar de manera autónoma su modo de transmisión para resolver interferencias o bloqueos, 
+              asegurando que se mantenga la comunicación mientras los nodos de la red se mueven con velocidades de hasta 150 km/h.
+              Las aplicaciones más comunes son en Seguridad Pública, Militares, Sistemas no Tripulados terrestres o aéreos (Drones), 
+              sistemas ISR (Inteligencia, Vigilancia y Adquisición de Blancos), Televisión/Broadcasting y Comunicaciones Marítimas.
+              Transmitir datos entre diversos dispositivos, o imágenes desde cámaras ip móviles remotas, en alta definición y en tiempo real con una 
+              Potentes funciones:
+              <li>Encriptación AES128/AES256</li>
+              <li>Construcción IP-67</li>
+              <li>Red móvil IP de una frecuencia y múltiples radios trabajando colaborativamente</li>
+              <li>Opción de elegir frecuencia en canales licenciados/no licenciados desde 400 MHz hasta 6 GHz</li>
+              <li>Red grilla auto-reparable de alta capacidad</li>
+            </p>
+            <div class="badges-contenedor">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Proyectos</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos en los que estamos trabajando</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>MINAS EL TENIENTE Y ESMERALDA CODELCO CHILE</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>ANTARTIDA</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>ESTADO MAYOR CONJUNTO DE LAS FFAA</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>CENTRALES NUCLEARES</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section id="appli" class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Aplicaciones</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              El decorador @property en Python - cómo usarlo, ventajas y sintaxis
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+      <!-- Carrusel -->
+      <section id="casoexito">
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Contactanos
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Escríbenos, comparte tus preguntas o envíanos un feedback sobre nosotros y/o los productos. Completa el formulario 
+              y nos pondremos en contacto a la brevedad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:contacto@interlinkla.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <p class="footer-texto text-center">Soluciones integrales a medida para cada necesidad de nuestros clientes.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Interlink Latinoamérica SRL &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
